@@ -6,7 +6,7 @@ import Alamofire
 
 class NetworkManagerAlbum {
     static let shared = NetworkManagerAlbum()
-    private init() { }
+    init() { }
     
     let limit: Int = 15
 

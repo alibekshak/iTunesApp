@@ -19,6 +19,7 @@
 		186BB1762ACBE18E00533FB4 /* NetworkForAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB1752ACBE18E00533FB4 /* NetworkForAlbum.swift */; };
 		186BB1782ACC026500533FB4 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB1772ACC026500533FB4 /* Auxiliary.swift */; };
 		186BB17A2ACC031100533FB4 /* NetworkForSongAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB1792ACC031100533FB4 /* NetworkForSongAlbum.swift */; };
+		186BB17D2ACC060500533FB4 /* AlbumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB17C2ACC060500533FB4 /* AlbumTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		186BB1752ACBE18E00533FB4 /* NetworkForAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkForAlbum.swift; sourceTree = "<group>"; };
 		186BB1772ACC026500533FB4 /* Auxiliary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auxiliary.swift; sourceTree = "<group>"; };
 		186BB1792ACC031100533FB4 /* NetworkForSongAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkForSongAlbum.swift; sourceTree = "<group>"; };
+		186BB17C2ACC060500533FB4 /* AlbumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +70,11 @@
 		186BB1512ACBCD6000533FB4 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				186BB17B2ACC052C00533FB4 /* Controller */,
 				186BB1712ACBE0AD00533FB4 /* Networks */,
 				186BB16C2ACBDF7900533FB4 /* model */,
 				186BB1522ACBCD6000533FB4 /* AppDelegate.swift */,
 				186BB1542ACBCD6000533FB4 /* SceneDelegate.swift */,
-				186BB1562ACBCD6000533FB4 /* ViewController.swift */,
 				186BB1582ACBCD6000533FB4 /* Main.storyboard */,
 				186BB15B2ACBCD6200533FB4 /* Assets.xcassets */,
 				186BB15D2ACBCD6200533FB4 /* LaunchScreen.storyboard */,
@@ -98,6 +100,15 @@
 				186BB1792ACC031100533FB4 /* NetworkForSongAlbum.swift */,
 			);
 			path = Networks;
+			sourceTree = "<group>";
+		};
+		186BB17B2ACC052C00533FB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				186BB1562ACBCD6000533FB4 /* ViewController.swift */,
+				186BB17C2ACC060500533FB4 /* AlbumTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +195,7 @@
 				186BB1552ACBCD6000533FB4 /* SceneDelegate.swift in Sources */,
 				186BB17A2ACC031100533FB4 /* NetworkForSongAlbum.swift in Sources */,
 				186BB16E2ACBDFA000533FB4 /* Album.swift in Sources */,
+				186BB17D2ACC060500533FB4 /* AlbumTableViewController.swift in Sources */,
 				186BB1702ACBDFCA00533FB4 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
