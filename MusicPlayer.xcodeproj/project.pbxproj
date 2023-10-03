@@ -13,6 +13,8 @@
 		186BB15A2ACBCD6000533FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186BB1582ACBCD6000533FB4 /* Main.storyboard */; };
 		186BB15C2ACBCD6200533FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186BB15B2ACBCD6200533FB4 /* Assets.xcassets */; };
 		186BB15F2ACBCD6200533FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186BB15D2ACBCD6200533FB4 /* LaunchScreen.storyboard */; };
+		186BB16E2ACBDFA000533FB4 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB16D2ACBDFA000533FB4 /* Album.swift */; };
+		186BB1702ACBDFCA00533FB4 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BB16F2ACBDFCA00533FB4 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		186BB15B2ACBCD6200533FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186BB15E2ACBCD6200533FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186BB1602ACBCD6200533FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186BB16D2ACBDFA000533FB4 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		186BB16F2ACBDFCA00533FB4 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		186BB1512ACBCD6000533FB4 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				186BB16C2ACBDF7900533FB4 /* model */,
 				186BB1522ACBCD6000533FB4 /* AppDelegate.swift */,
 				186BB1542ACBCD6000533FB4 /* SceneDelegate.swift */,
 				186BB1562ACBCD6000533FB4 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				186BB1602ACBCD6200533FB4 /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		186BB16C2ACBDF7900533FB4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				186BB16D2ACBDFA000533FB4 /* Album.swift */,
+				186BB16F2ACBDFCA00533FB4 /* Song.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				186BB1572ACBCD6000533FB4 /* ViewController.swift in Sources */,
 				186BB1532ACBCD6000533FB4 /* AppDelegate.swift in Sources */,
 				186BB1552ACBCD6000533FB4 /* SceneDelegate.swift in Sources */,
+				186BB16E2ACBDFA000533FB4 /* Album.swift in Sources */,
+				186BB1702ACBDFCA00533FB4 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
